@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables file
+.env
+
+# Flask environment-specific files and folders
+instance/
+config.py
+config.yaml
+
+# Virtual environment directory
+venv/
+env/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Database and SQLite files
+*.sqlite3
+*.db
+*.sqlite
+
+# Python egg and wheel files
+*.egg-info/
+*.eggs/
+*.wheel
+
+# Compiled Cython files
+*.so
+
+# Cache and temporary files
+.cache/
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Unit test / coverage reports
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm project files (if using PyCharm)
+.idea/
+
+# VSCode settings (if using VSCode)
+.vscode/
